@@ -76,14 +76,13 @@ body{
 
     body{
         background-color: rgb(208, 208, 208);
-       
     }
     
     .blue_box{
         height: 15vw;
         width: 30%;
         background-color:  #092081;
-        position: fixed;
+        position: absolute;
         top: 0px;
         left: 100px; 
         transform-origin: center;
@@ -95,7 +94,7 @@ body{
         font-family: ganache, sans-serif;
         font-weight: 400;
         font-style: normal;
-        position: fixed;
+        position: absolute;
         top: 0px;
         left: 195px; 
         font-size: 5em;
@@ -106,10 +105,11 @@ body{
         font-family: ganache, sans-serif;
         font-weight: 400;
         font-style: normal;
-        position: fixed;
+        position: absolute;
         top: 45px;
         left: 170px; 
         font-size: 5em;
+       
     }
     
     .author{
@@ -118,9 +118,10 @@ body{
         font-weight: 400;
         font-style: normal;
         font-size: 2.5em;
-        left: 10px;
-        bottom: 15px;
-        position: fixed;
+        position: relative;
+        top: 250px; 
+        margin-left: 25%;
+        margin-right: 20%
     }
     
     .quote{
@@ -129,30 +130,22 @@ body{
         font-weight: 400;
         font-style: normal;
         font-size: 1.5em;
-        left: 10px;
-        bottom: 5px;
-        position: fixed;
+        position: absolute;
+        top: 310px;
+        margin-left: 20%;
+        margin-right: 20%
     }
     .poem{
         color: black;
         font-family: ganache, sans-serif;
         font-weight: 400;
         font-style: normal;
-    
         font-size: 1.5em;
-        
-    }
-    .stenza_1{
-      
-    }
-    .stenza_2{
-        
-    }
-    .stenza_3{
-        
-    }
-    .stenza_4{
-        
+        position: absolute;
+        top: 350px;  
+        margin-left: 20%;
+        margin-right: 20%
+     
     }
     
 
@@ -164,17 +157,15 @@ body{
 
     body{
         background-color: rgb(208, 208, 208);
-       
     }
     
     .blue_box{
-        height: 25vw;
-        width: 400px;
-       
+        height: 15vw;
+        width: 30%;
         background-color:  #092081;
-    
+        position: absolute;
         top: 0px;
-        left: 50%; 
+        left: 100px; 
         transform-origin: center;
         transform: rotate(90deg);
     }
@@ -184,9 +175,9 @@ body{
         font-family: ganache, sans-serif;
         font-weight: 400;
         font-style: normal;
-        position: fixed;
-        top: 2%;
-        left: 53%; 
+        position: absolute;
+        top: 0px;
+        left: 195px; 
         font-size: 5em;
     }
     
@@ -195,10 +186,11 @@ body{
         font-family: ganache, sans-serif;
         font-weight: 400;
         font-style: normal;
-        position: fixed;
-        top: 10%;
-        left: 50%; 
+        position: absolute;
+        top: 45px;
+        left: 170px; 
         font-size: 5em;
+       
     }
     
     .author{
@@ -207,9 +199,10 @@ body{
         font-weight: 400;
         font-style: normal;
         font-size: 2.5em;
-        left: 10px;
-        bottom: 15px;
-        position: fixed;
+        position: relative;
+        top: 250px; 
+        margin-left: 25%;
+        margin-right: 20%
     }
     
     .quote{
@@ -218,30 +211,22 @@ body{
         font-weight: 400;
         font-style: normal;
         font-size: 1.5em;
-        left: 10px;
-        bottom: 5px;
-        position: fixed;
+        position: absolute;
+        top: 310px;
+        margin-left: 20%;
+        margin-right: 20%
     }
     .poem{
         color: black;
         font-family: ganache, sans-serif;
         font-weight: 400;
         font-style: normal;
-    
         font-size: 1.5em;
-        
-    }
-    .stenza_1{
-      
-    }
-    .stenza_2{
-        
-    }
-    .stenza_3{
-        
-    }
-    .stenza_4{
-        
+        position: absolute;
+        top: 350px;  
+        margin-left: 20%;
+        margin-right: 20%
+     
     }
     
     
