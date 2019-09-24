@@ -1,0 +1,249 @@
+body{
+    background-color: rgb(208, 208, 208);
+}
+
+.blue_box{
+    height: 15vw;
+    width: 30%;
+    background-color:  #092081;
+    position: fixed;
+    top: 0px;
+    left: 100px; 
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+
+.title{
+    color: rgb(173, 107, 0);
+    font-family: ganache, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 0px;
+    left: 195px; 
+    font-size: 5em;
+}
+
+.title_2{
+    color: rgb(173, 107, 0);
+    font-family: ganache, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 45px;
+    left: 170px; 
+    font-size: 5em;
+}
+
+.author{
+    color: black;
+    font-family: ganache, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    left: 15px;
+    bottom: 15px;
+    position: fixed;
+}
+
+.quote{
+    color: black;
+    font-family: ganache, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    left: 15px;
+    bottom: 5px;
+    position: fixed;
+}
+.poem{
+    color: black;
+    font-family: ganache, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    position: relative;
+    margin-top: 30px;   
+    margin-left: 700px;
+ 
+}
+
+
+/* --------- SMART PHONE -------- */
+
+
+@media only screen and (max-width: 800px){
+
+    body{
+        background-color: rgb(208, 208, 208);
+       
+    }
+    
+    .blue_box{
+        height: 15vw;
+        width: 30%;
+        background-color:  #092081;
+        position: fixed;
+        top: 0px;
+        left: 100px; 
+        transform-origin: center;
+        transform: rotate(90deg);
+    }
+    
+    .title{
+        color: rgb(173, 107, 0);
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: fixed;
+        top: 0px;
+        left: 195px; 
+        font-size: 5em;
+    }
+    
+    .title_2{
+        color: rgb(173, 107, 0);
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: fixed;
+        top: 45px;
+        left: 170px; 
+        font-size: 5em;
+    }
+    
+    .author{
+        color: black;
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5em;
+        left: 10px;
+        bottom: 15px;
+        position: fixed;
+    }
+    
+    .quote{
+        color: black;
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5em;
+        left: 10px;
+        bottom: 5px;
+        position: fixed;
+    }
+    .poem{
+        color: black;
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+        font-size: 1.5em;
+        
+    }
+    .stenza_1{
+      
+    }
+    .stenza_2{
+        
+    }
+    .stenza_3{
+        
+    }
+    .stenza_4{
+        
+    }
+    
+
+}
+
+/* --------- TABLETS -------- */
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+
+    body{
+        background-color: rgb(208, 208, 208);
+       
+    }
+    
+    .blue_box{
+        height: 25vw;
+        width: 400px;
+       
+        background-color:  #092081;
+    
+        top: 0px;
+        left: 50%; 
+        transform-origin: center;
+        transform: rotate(90deg);
+    }
+    
+    .title{
+        color: rgb(173, 107, 0);
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: fixed;
+        top: 2%;
+        left: 53%; 
+        font-size: 5em;
+    }
+    
+    .title_2{
+        color: rgb(173, 107, 0);
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: fixed;
+        top: 10%;
+        left: 50%; 
+        font-size: 5em;
+    }
+    
+    .author{
+        color: black;
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5em;
+        left: 10px;
+        bottom: 15px;
+        position: fixed;
+    }
+    
+    .quote{
+        color: black;
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5em;
+        left: 10px;
+        bottom: 5px;
+        position: fixed;
+    }
+    .poem{
+        color: black;
+        font-family: ganache, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+        font-size: 1.5em;
+        
+    }
+    .stenza_1{
+      
+    }
+    .stenza_2{
+        
+    }
+    .stenza_3{
+        
+    }
+    .stenza_4{
+        
+    }
+    
+    
+
+}
